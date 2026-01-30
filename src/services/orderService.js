@@ -3,7 +3,7 @@ import axios from 'axios';
 // Get base URL from environment or default to local service
 // In production this would be the gateway or consolidated API URL
 // For now, pointing directly to order-service port 8002 via proxy or direct
-const ORDER_SERVICE_URL = 'http://localhost:8002/orders'; 
+const ORDER_SERVICE_URL = 'https://q4yf0oqk42.execute-api.ap-south-1.amazonaws.com/prod/api/v1/orders';
 
 // Create axios instance
 const api = axios.create({

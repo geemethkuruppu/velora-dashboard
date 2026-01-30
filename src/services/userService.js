@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://q4yf0oqk42.execute-api.ap-south-1.amazonaws.com/prod/api/v1';
 
 export const userService = {
     // Get current user details from backend

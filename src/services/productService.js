@@ -1,5 +1,5 @@
-const BASE_URL = 'http://localhost:8001/products';
-const AUTH_URL = 'http://localhost:8000/auth';
+const BASE_URL = 'https://q4yf0oqk42.execute-api.ap-south-1.amazonaws.com/prod/api/v1/products';
+const AUTH_URL = 'https://q4yf0oqk42.execute-api.ap-south-1.amazonaws.com/prod/api/v1/auth';
 
 const getHeaders = () => {
     const savedUser = localStorage.getItem('velora_admin_user');

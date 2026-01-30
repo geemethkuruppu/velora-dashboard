@@ -34,7 +34,7 @@ export const AuthProvider = ({ children }) => {
 
     const login = async (email, password) => {
         try {
-            const response = await axios.post('http://localhost:8000/auth/login', {
+            const response = await axios.post('https://q4yf0oqk42.execute-api.ap-south-1.amazonaws.com/prod/api/v1/auth/login', {
                 email,
                 password
             });

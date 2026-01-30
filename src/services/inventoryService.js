@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Inventory Service URL
 // In production, this would be behind a gateway
-const INVENTORY_SERVICE_URL = 'http://localhost:8004/inventory';
+const INVENTORY_SERVICE_URL = 'https://q4yf0oqk42.execute-api.ap-south-1.amazonaws.com/prod/api/v1/inventory';
 
 const api = axios.create({
     baseURL: INVENTORY_SERVICE_URL,
